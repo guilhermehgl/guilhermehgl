@@ -2,7 +2,7 @@
 
 **Desenvolvedor Full Stack | Frontend & Backend**
 
-Belo Horizonte, MG · [LinkedIn](https://www.linkedin.com/in/guilherme-lima-2880762b3) · [SWNexa Studio](https://studio.swnexa.com) · [E-mail](mailto:guilhermehgl07@gmail.com)
+Belo Horizonte, MG · [LinkedIn](https://www.linkedin.com/in/guilherme-lima-2880762b3) · [SWNexa Studio](https://studio.swnexa.com/) · [E-mail](mailto:guilhermehgl07@gmail.com)
 
 Desenvolvo aplicações web completas, da construção de interfaces ao desenvolvimento de APIs, modelagem de bancos de dados e implantação em produção.
 
@@ -48,7 +48,7 @@ Site institucional do meu empreendimento de desenvolvimento de software, criado 
 
 O projeto reúne decisões de design e implementação frontend, demonstrando minha capacidade de transformar conceitos visuais em experiências digitais funcionais.
 
-[Ver site](https://studio.swnexa.com) · [Ver repositório](https://github.com/guilhermehgl/swnexa-studio)
+[Ver site](https://studio.swnexa.com/) · [Ver repositório](https://github.com/guilhermehgl/swnexa-studio)
 
 ### Sistema de Loja — Gestão de estoque e vendas
 
@@ -119,7 +119,7 @@ Desenvolvimento de sites, aplicações web e sistemas sob medida, abrangendo an�
 
 A atuação envolve projetos próprios e soluções desenvolvidas para utilização real. Parte dos produtos possui repositórios privados, enquanto o SWNexa Studio está disponível publicamente como demonstração do trabalho em frontend e desenvolvimento web.
 
-[Conhecer a SWNexa](https://swnexa.com) · [Conhecer o Studio](https://studio.swnexa.com)
+[Conhecer a SWNexa](https://swnexa.com/) · [Conhecer o Studio](https://studio.swnexa.com/)
 
 ---
 
