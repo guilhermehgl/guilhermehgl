@@ -1,140 +1,98 @@
 # Guilherme Lima
 
-**Desenvolvedor Full Stack | Frontend & Backend**
+**Desenvolvedor Full Stack | Frontend e Backend**
 
-Belo Horizonte, MG · [LinkedIn](https://www.linkedin.com/in/guilherme-lima-2880762b3) · [SWNexa Studio](https://studio.swnexa.com/) · [E-mail](mailto:guilhermehgl07@gmail.com)
+Belo Horizonte, MG · [LinkedIn](https://www.linkedin.com/in/guilherme-lima-2880762b3) · [E-mail](mailto:guilhermehgl07@gmail.com) · [SWNexa Studio](https://studio.swnexa.com/)
 
-Desenvolvo aplicações web completas, da construção de interfaces ao desenvolvimento de APIs, modelagem de bancos de dados e implantação em produção.
+Sou desenvolvedor Full Stack e estudante de Engenharia de Software, com experiência profissional em infraestrutura de TI. Desenvolvo aplicações web para necessidades reais, da interface e das APIs à persistência, aos testes e à publicação.
 
-Minha trajetória combina **experiência profissional em infraestrutura de TI com desenvolvimento de software aplicado a problemas reais**. Além da atuação em ambiente corporativo, desenvolvo projetos independentes por meio da SWNexa, criando soluções digitais para diferentes necessidades de negócio.
+Busco oportunidades de desenvolvimento **Full Stack, Backend e Frontend** para contribuir com equipes de tecnologia e evoluir na construção de software.
 
-Tenho interesse em oportunidades de desenvolvimento **Full Stack, Backend e Frontend**, nas quais possa contribuir com minha experiência prática e continuar evoluindo tecnicamente.
+## Resumo profissional
 
----
+Minha experiência com redes, servidores e suporte a ambientes corporativos contribui para o diagnóstico de falhas e a compreensão de aplicações em produção. Nos projetos, aplico esses conhecimentos ao desenvolvimento de interfaces, regras de negócio, integrações e validações.
 
 ## Projetos em destaque
 
-Uma seleção de projetos que demonstram diferentes competências técnicas, decisões de arquitetura e experiências com aplicações reais.
+### 1. Portal de Tokens — Controle de retiradas
 
-### Portal de Tokens — Controle e validação de retiradas
+Organiza a retirada de pedidos vinculados a notas fiscais por meio de códigos de uso único, a partir de uma necessidade empresarial real.
 
-**React · TypeScript · Node.js · Express · MongoDB**
+**React · Express · TypeScript na API · MongoDB**
 
-Sistema desenvolvido a partir de uma necessidade empresarial real, para controlar a retirada de pedidos por meio de códigos de uso único.
+- Autenticação JWT e permissões por perfil, verificadas no backend.
+- Consumo atômico do token, com validade e prevenção de reutilização.
+- Auditoria sanitizada e cotas persistentes para a demonstração compartilhada.
 
-**Destaques técnicos:**
-- Autenticação com JWT e controle de acesso baseado em perfis.
-- Geração e validação de tokens com prazo de expiração.
-- Operações atômicas para impedir a utilização duplicada de códigos.
-- Registro de auditoria e rastreabilidade das operações.
-- Separação entre frontend, backend e persistência de dados.
+A demonstração utiliza dados fictícios e permite gerar, copiar e verificar códigos, sem enviar e-mail ou WhatsApp.
 
-A versão pública foi adaptada para demonstração, com dados fictícios e integrações de envio desabilitadas, preservando as regras de negócio e os principais aspectos técnicos da solução.
+[Repositório](https://github.com/guilhermehgl/tokens) · [Demonstração](https://tokens-theta-dun.vercel.app/)
 
-[Ver repositório](https://github.com/guilhermehgl/tokens)
+### 2. Sistema Loja — Estoque e vendas
 
-### SWNexa Studio — Experiência web e design de interfaces
+Gerencia produtos, reposições e vendas, mantendo a consistência do estoque durante operações concorrentes.
+
+**Angular · NestJS · TypeScript · PostgreSQL · TypeORM**
+
+- Transações com bloqueio de linha, rollback e reposição com atualização atômica.
+- Validação de entradas e confirmação administrativa no backend.
+- Testes E2E de concorrência com PostgreSQL isolado, além de testes unitários e de frontend.
+
+O GitHub Actions executa **CI**. Os deploys são gerenciados externamente pelas integrações da Vercel e do Render.
+
+[Repositório](https://github.com/guilhermehgl/sistema_loja_fullstack) · [Demonstração](https://sistema-loja-fullstack.vercel.app/)
+
+### 3. Ping Verified — Disponibilidade de dispositivos
+
+Conecta minha experiência em infraestrutura ao desenvolvimento de uma aplicação para acompanhar quedas e recuperações de dispositivos de rede.
+
+**Vue 3 · Pinia · Express · MongoDB**
+
+- Monitoramento local por ICMP/TCP, sem sobreposição dos ciclos.
+- Estabilização de estados com leituras consecutivas e registro de eventos.
+- Demonstração pública isolada, com dados fictícios na memória da aba.
+
+O modo local monitora apenas alvos autorizados e alcançáveis pelo backend. A demonstração pública não executa sondagens, não acessa MongoDB e não dispara alertas reais.
+
+[Repositório](https://github.com/guilhermehgl/ping_verified_fullstack) · [Demonstração](https://ping-verified-fullstack.vercel.app/)
+
+### 4. SWNexa Studio — Site comercial e experiências digitais
+
+Apresenta serviços de desenvolvimento digital e explora diferentes linguagens de interface em quatro experiências autorais: Atelier, Amora, Orbit e Volt.
 
 **Next.js · React · TypeScript · Tailwind CSS · Framer Motion**
 
-Site institucional do meu empreendimento de desenvolvimento de software, criado com foco em identidade visual, interatividade, responsividade e experiência do usuário.
+- App Router, componentes React, responsividade e recursos de acessibilidade.
+- SEO técnico com canonical, sitemap e metadados de compartilhamento.
+- Formulário com validação no cliente/servidor, idempotência e integração Resend coberta por testes simulados.
 
-**Destaques técnicos:**
-- Interfaces responsivas e componentes reutilizáveis.
-- Animações e transições integradas à experiência de navegação.
-- Estrutura baseada no Next.js App Router.
-- Formulário de contato com validação e integração de e-mail.
-- Organização de componentes e separação de responsabilidades.
+As quatro experiências são conceituais, não entregas para clientes reais.
 
-O projeto reúne decisões de design e implementação frontend, demonstrando minha capacidade de transformar conceitos visuais em experiências digitais funcionais.
+[Repositório](https://github.com/guilhermehgl/swnexa-studio) · [Site oficial](https://studio.swnexa.com/)
 
-[Ver site](https://studio.swnexa.com/) · [Ver repositório](https://github.com/guilhermehgl/swnexa-studio)
+## Tecnologias e competências
 
-### Sistema de Loja — Gestão de estoque e vendas
+- **Frontend:** React, Next.js, Angular, Vue, JavaScript, TypeScript e Tailwind CSS.
+- **Backend e dados:** Node.js, Express, NestJS, APIs REST, JWT, MongoDB, PostgreSQL, Mongoose e TypeORM.
+- **Qualidade e publicação:** testes unitários e E2E, Git, GitHub Actions, Docker, Vercel e Render.
+- **Infraestrutura:** Linux, redes, servidores, suporte e diagnóstico de falhas.
 
-**Angular · NestJS · TypeScript · PostgreSQL**
+## Experiência profissional e projetos independentes
 
-Aplicação Full Stack para gerenciamento de produtos, estoque e vendas, desenvolvida com foco em organização arquitetural e consistência dos dados.
+**Assistente de Infraestrutura — Elmaz**
 
-**Destaques técnicos:**
-- Backend modular com separação de responsabilidades.
-- Operações transacionais para controle de estoque durante vendas.
-- Migrations e persistência em PostgreSQL.
-- Testes automatizados para regras críticas de negócio.
-- Pipelines de CI/CD utilizando GitHub Actions.
-- Aplicação disponibilizada em ambiente cloud.
+Experiência profissional com suporte a ambientes corporativos, redes, servidores e resolução de problemas técnicos. Também desenvolvi soluções aplicadas a necessidades da operação, incluindo controle de retiradas e monitoramento de dispositivos.
 
-O projeto prioriza a confiabilidade das operações e o tratamento de cenários que vão além das funcionalidades básicas de um CRUD.
+**SWNexa — Iniciativa independente**
 
-[Ver demonstração](https://sistema-loja-fullstack.vercel.app/) · [Ver repositório](https://github.com/guilhermehgl/sistema_loja_fullstack)
+Conduzo a SWNexa paralelamente à minha trajetória profissional, desenvolvendo projetos autorais e atendendo demandas independentes de sites e sistemas. Essa prática complementa minha experiência técnica em análise de necessidades, implementação e publicação de soluções digitais.
 
-### Ping Verified — Monitoramento de dispositivos
+[SWNexa](https://swnexa.com/) · [Studio](https://studio.swnexa.com/)
 
-**Vue.js · Node.js · Express · MongoDB**
+## Formação
 
-Aplicação desenvolvida a partir de necessidades reais de infraestrutura de TI, voltada ao cadastro e monitoramento de dispositivos de rede.
-
-**Destaques técnicos:**
-- Arquitetura separada entre frontend e backend.
-- Organização do backend em controllers, services e repositories.
-- Gerenciamento de estado com Pinia.
-- Persistência de dispositivos e eventos.
-- Estratégias de monitoramento considerando limitações de conectividade e ambiente.
-
-A versão pública demonstra a interface e os fluxos da aplicação. O monitoramento de dispositivos em redes privadas depende da execução em um ambiente com acesso à rede monitorada.
-
-[Ver demonstração](https://ping-verified-fullstack.vercel.app/) · [Ver repositório](https://github.com/guilhermehgl/ping_verified_fullstack)
-
----
-
-## Tecnologias e ferramentas
-
-| Área | Tecnologias |
-|---|---|
-| **Frontend** | React, Next.js, Vue.js, Angular, TypeScript, JavaScript, Tailwind CSS |
-| **Backend** | Node.js, Express, NestJS, APIs REST, JWT |
-| **Banco de dados** | MongoDB, PostgreSQL, Mongoose |
-| **Infraestrutura e DevOps** | Linux, Docker, Git, GitHub Actions, Vercel, Render |
-| **Outros conhecimentos** | Redes, servidores, implantação de aplicações e integração entre sistemas |
-
----
-
-## Experiência e atuação
-
-### Assistente de Infraestrutura — Elmaz
-
-**Atuação atual**
-
-Experiência profissional com infraestrutura de TI, suporte a ambientes corporativos, redes, servidores e resolução de problemas técnicos.
-
-Essa vivência contribui diretamente para minha atuação no desenvolvimento de software, especialmente na compreensão de ambientes de produção, integração entre sistemas, diagnóstico de falhas e confiabilidade operacional.
-
-Também desenvolvi soluções aplicadas a necessidades reais da operação, incluindo sistemas de controle de retiradas e monitoramento de dispositivos.
-
-### SWNexa — Desenvolvimento de soluções digitais
-
-**Empreendimento independente**
-
-Desenvolvimento de sites, aplicações web e sistemas sob medida, abrangendo análise de necessidades, planejamento técnico, implementação e disponibilização das soluções.
-
-A atuação envolve projetos próprios e soluções desenvolvidas para utilização real. Parte dos produtos possui repositórios privados, enquanto o SWNexa Studio está disponível publicamente como demonstração do trabalho em frontend e desenvolvimento web.
-
-[Conhecer a SWNexa](https://swnexa.com/) · [Conhecer o Studio](https://studio.swnexa.com/)
-
----
-
-## Formação acadêmica
-
-**Bacharelado em Engenharia de Software**
-
-Em andamento · Conclusão prevista para outubro de 2028.
-
----
+**Bacharelado em Engenharia de Software** — em andamento. Conclusão prevista para outubro de 2028.
 
 ## Contato
 
-Tenho interesse em oportunidades profissionais nas áreas de **desenvolvimento Full Stack, Backend e Frontend**.
-
-- **LinkedIn:** [Guilherme Lima](https://www.linkedin.com/in/guilherme-lima-2880762b3)
-- **E-mail:** [guilhermehgl07@gmail.com](mailto:guilhermehgl07@gmail.com)
-- **GitHub:** [github.com/guilhermehgl](https://github.com/guilhermehgl)
+[LinkedIn](https://www.linkedin.com/in/guilherme-lima-2880762b3) · [guilhermehgl07@gmail.com](mailto:guilhermehgl07@gmail.com) · [GitHub](https://github.com/guilhermehgl)
